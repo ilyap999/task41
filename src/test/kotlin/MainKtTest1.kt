@@ -12,8 +12,8 @@ class MainKtTest {
 
         val result = calculationCommis(payType = payType, sumAmount = sumAmount, amount = amount)
 
-        //assertEquals(0, result)
-        assertEquals(1, result)
+        assertEquals(0, result)
+        //assertEquals(1, result)
     }
 
     @Test
