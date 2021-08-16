@@ -12,7 +12,8 @@ class MainKtTest {
 
         val result = calculationCommis(payType = payType, sumAmount = sumAmount, amount = amount)
 
-        assertEquals(0, result)
+        //assertEquals(0, result)
+        assertEquals(1, result)
     }
 
     @Test
@@ -59,14 +60,4 @@ class MainKtTest {
         assertEquals(3500, result)
     }
 
-    /*@Test
-    fun calculationCommis_DefaultParameters() {
-        //val payType = PayType.Visa
-        //val sumAmount = 10000
-        val amount = 82000
-
-        val result = calculationCommis(amount = amount)
-
-        assertEquals(0, result)
-    }*/
 }
